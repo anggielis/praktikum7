@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            body {
+                background: linear-gradient(white, pink);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Times New Roman';
+
+            }
+            h1{
+                text-align: center;
+                color: pink;
+            }
+            p{
+                text-align: center;
+                width: fit-content;
+            }
+
+            .center{
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .foto{
+                background-color:pink;
+            }
+         </style>
+    <title>Document</title>
+</head>
+<body>
+    <h2>FORM ENTRY DATA PEGAWAI</h2>
+    <form action="uts.html">
+        <label for="nik">NIK :</label>
+        <input type="text" id="nik" name="nik">
+        <br />
+        <br />
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama">
+        <br />
+        <br />
+        <label for="tempat_lahir">Tempat Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir">
+        <br />
+        <br />
+        <label for="tanggal_lahir">Tanggal Lahir :</label>
+        <input type="number" id="tanggal_lahir" name="tanggal_lahir">
+        <br />
+        <br />
+        <label for="alamat">Alamat :</label>
+        <textarea name="alamat" id="alamat" cols="50" rows="5"></textarea>
+        <br />
+        <br />
+        <label for="no_telephone">No Telephone :</label>
+        <input type="number" id="no_telephone" name=no_telephone">
+        <br />
+        <br />
+        <label for="jabatan">Jabatan :</label>
+        <select name="jabatan" id="jabatan">
+            <option value="manager">Manager</option>
+            <option value="staff">Staff</option>
+            <option value="supervisor">Supervisor</option>
+        </select>
+        <br />
+        <br />
+        <label for="status">Status :</label>
+        <select name="status" id="status">
+            <option value="aktif">Aktif</option>
+            <option value="tidak_aktif">Tidak Aktif</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" Kirim>
+        <input type="reset" Batal>
+    </form>
+</body>
+</html>
